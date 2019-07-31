@@ -33,6 +33,9 @@ int main(){
 				if(user != userIn || password != passwordIn){
 					cout << "Username or Password incorrect Please try again!!!" << endl;
 					}
+				else {
+					cout << "Username and Password correct ^___^ " << endl;
+					}
 				}
 			while(user != userIn || password != passwordIn);
 		}
@@ -45,6 +48,6 @@ int main(){
 		cout << endl;
 	}
 	while(Ch != 'Q');
-	cout << "Exit Program........";
+	cout << "Exit Program........"<< endl; 
 	return 0;
 }
